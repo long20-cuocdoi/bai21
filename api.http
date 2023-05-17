@@ -1,0 +1,20 @@
+get http://localhost:3001/books/1 HTTP/1.1
+
+###
+POST http://localhost:3001/books/1 HTTP/1.1
+content-type: application/json
+
+{"title: Harry Potter tap 1"}
+
+###
+
+PUT http://localhost:3001/books/4 HTTP/1.1
+content-type: application/json
+
+{"title": "Harry Potter tap 4"}
+
+###
+Delete http://localhost:3001/books/3 HTTP/1.1
+content-type: application/json
+
+{"title": "Harry Potter tap 3"}

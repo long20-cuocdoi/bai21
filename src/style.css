@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.form-create{
+    width: 100%;
+    padding: 1em;
+    background-color: #06bff2;
+}
+.form-create input{
+    width: 100%;
+    padding: 0.7em;
+    
+}
+.form-create button{
+    margin-top: 0.5em;
+    padding: 10px;
+    font-size: 30px;
+}
+.form-create h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.list-books{
+    width: 70%;
+    margin: 15px auto;
+}
+.item-book{
+    width: 33%;
+    display: inline-block;
+    padding: 15px;
+}
+.item-book img {
+    width: 60%;
+}
+.item-book button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
